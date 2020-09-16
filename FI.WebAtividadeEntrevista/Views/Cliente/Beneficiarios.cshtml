@@ -1,0 +1,50 @@
+﻿
+<div id="benefi" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                <h4 class="modal-title">Beneficiarios</h4>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <label for="CPF">CPF:</label>
+                            <input required="required" type="text" class="form-control" id="BeCPF" name="CPF" placeholder="Ex.: 123.456.789-01" maxlength="14">
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="form-group">
+                            <label for="Nome">Nome:</label>
+                            <input required="required" type="text" class="form-control" id="BeNome" name="Nome" placeholder="Ex.: Joao" maxlength="50">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="form-group">
+                            <br>
+                            <button type="button" id="btn-incluir-beneficiario" class="btn btn-sm btn-success">Incluir</button>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <table id="gridBeneficiarios" class="table">
+                    <thead>
+                        <tr>
+                            <td><label>CPF</label></td>
+                            <td><label>Nome</label></td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+
+            </div>
+        </div>
+    </div>
+</div>               
